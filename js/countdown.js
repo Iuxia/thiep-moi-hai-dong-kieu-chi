@@ -29,7 +29,6 @@ var x = setInterval(function () {
 
   document.getElementById("countdown").innerHTML =
     days + " ngày " + hours + " giờ " + minutes + " phút " + seconds + " giây ";
-
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "HAPPY WEDDING";

@@ -38,8 +38,11 @@
 		color: #555555;
 		padding: 10px 0;
 	}
+	.home-section .home-content p{
+		font-size: 32px !important;
+	}
 	.home-section .home-content h1{
-		font-size: 60px;
+		font-size: 32px !important;
 	}
 	.couple-section .couple{
 		flex: 0 0 100%;

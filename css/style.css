@@ -59,7 +59,7 @@ footer{
 	margin-bottom: 60px;
 }
 .section-title h2{
-	font-size: 45px;
+	font-size: 40px;
 	color: #000000;
 	font-weight: 700;
 	font-family: "Great Vibes", cursive;
@@ -275,9 +275,11 @@ footer{
 	text-align: center;
 }
 .home-section .home-content p{
-	font-size: 24px;
+	font-size: 44px;
 	color:#ffffff;
-	margin:0 0 15px;
+	margin:0;
+	font-weight: normal;
+	font-family: 'Great Vibes', cursive;
 }
 .home-section .slide.active .home-content p{
 	opacity:0;
