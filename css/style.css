@@ -118,7 +118,7 @@ footer{
 	height: 100%;
 	border:3px solid transparent;
 	border-radius: 50%;
-	animation: loaderSpin 2s linear infinite;
+	animation: loaderSpin 2s linear forwards;
 }
 @keyframes loaderSpin{
 	0%{
@@ -130,7 +130,7 @@ footer{
 }
 .preloader .loader i{
    font-size: 20px;
-   animation: loader 2s linear infinite;
+   animation: loader 2s linear forwards;
 }
 @keyframes loader {
 	0%,100%{

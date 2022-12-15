@@ -27,8 +27,10 @@ var x = setInterval(function () {
       ? "0" + Math.floor((distance % (1000 * 60)) / 1000)
       : Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("countdown").innerHTML =
-    days + " ngày " + hours + " giờ " + minutes + " phút " + seconds + " giây ";
+  document.getElementById("countdown-day").innerHTML =
+    days + " ngày " + hours + " giờ ";
+  document.getElementById("countdown-minute").innerHTML =
+    minutes + " phút " + seconds + " giây ";
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "HAPPY WEDDING";

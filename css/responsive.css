@@ -68,6 +68,9 @@
 		margin-left:0px;
         left:5px;
 	}
+	.event-section .event-item-inner p{
+		font-size: 15px !important;
+	}
 	.event-section .event-item:nth-child(2) {
       transform: translateY(0px);
     }
@@ -95,6 +98,11 @@
 	}
     .home-section .home-content h1{
 		font-size: 40px;
+	}
+	.event-section .event-item-inner p{
+		font-size: 14px !important;
+		font-weight: bold;
+		color: black;
 	}
 	.rsvp-section .form .input-group.w50,
 	.gallery-section .gallery-item,
