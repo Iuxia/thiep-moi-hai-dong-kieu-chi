@@ -6,17 +6,17 @@ const sr = ScrollReveal({
 });
 
 sr.reveal(
-  `.countdown-section, .couple, .story-item, .story-text, .row, .section-title, .title, .testimonial,
+  `.countdown-section, .couple, .story-item, .story-text, .people-item-inner, .gallery-item-inner, .section-title, .title, .testimonial,
     .footer`,
   {
-    // interval: 200,
+    interval: 200,
   }
 );
 
 const album = ScrollReveal({
   //   delay: 125,
   duration: 1500,
-  opacity: 0,
+  opacity: 1,
   distance: "50%",
   origin: "right",
   reset: true,

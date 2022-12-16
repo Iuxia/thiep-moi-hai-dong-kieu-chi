@@ -12,6 +12,19 @@
       flex: 0 0 50%;
       max-width: 50%;
     }
+	.send-money .row{
+		display: flex;
+		flex-direction: column;
+		/* padding:0 60px;
+		text-align: center; */
+	}
+	.send-money .row .send-money-cd{
+		max-width: 100%;
+		padding-bottom: 20px;
+	}
+	.send-money .row .send-money-cd img {
+		object-fit: contain;
+	}
 }
 @media(max-width: 767px){
 	.header .logo {
